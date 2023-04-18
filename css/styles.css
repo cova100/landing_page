@@ -1,8 +1,14 @@
-/* Estilos para la página de inicio */
+/* Estilos para la página de inicio 
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: #f2f2f2;
+    background-color: #fdfdfd;
     color: #333;
+  }
+  */
+  .jumbotron {
+    background-color: goldenrod;
+    text-decoration: dashed;
+    text-orientation: sideways-right;
   }
   header.masthead .container .img-fluid {
     padding-top: 10.5rem;
@@ -13,7 +19,7 @@ body {
     background-attachment: scroll;
     background-position: center center;
     background-size: cover;
-    background-image: url("../img/img-masthead.jpg");
+    background-image: url("../img/img-masthead.png");
     height: 100vh; /* Establecer altura completa de la ventana */
   }
   /* header */
@@ -37,6 +43,7 @@ body {
     header.masthead {
         padding-top: 17rem;
         padding-bottom: 12.5rem;
+        
     }
     header.masthead .masthead-subheading {
       font-size: 2.25rem;
@@ -63,7 +70,7 @@ body {
     padding: 0 15px;
   }
   
-  .navbar {
+ /* .navbar {
     background-color: #fff;
     box-shadow: 0px 3px 6px rgba(0,0,0,0.16);
   }
@@ -158,7 +165,7 @@ body {
   
   .featured-item p {
     margin-bottom: 15px;
-  }
+  }*/
   
   .cta-section {
     background-color: #FF756C;
