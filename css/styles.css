@@ -1,12 +1,12 @@
-/* Estilos para la página de inicio 
+Estilos para la página de inicio 
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: #fdfdfd;
+    background-color: #e01919 !important;
     color: #333;
   }
-  */
+  
   .jumbotron {
-    background-color: goldenrod;
+    background-color: goldenrod !important;
     text-decoration: dashed;
     text-orientation: sideways-right;
   }
@@ -21,6 +21,7 @@ body {
     background-size: cover;
     background-image: url("../img/img-masthead.png");
     height: 100vh; /* Establecer altura completa de la ventana */
+    background-color: #a30f0f;
   }
   /* header */
   header.masthead .masthead-subheading {
@@ -70,127 +71,15 @@ body {
     padding: 0 15px;
   }
   
- 
-  .cta-section {
-    background-color: #FF756C;
-    padding: 100px 0;
-    text-align: center;
-    color: #fff;
-  }
-  
-  .cta-section-heading {
-    font-size: 40px;
-    margin-bottom: 50px;
-  }
-  
-  .cta-btn {
-    display: inline-block;
-    background-color: #fff;
-    color: #FF756C;
-    font-size: 20px;
-    font-weight: bold;
-    padding: 15px 30px;
-    border-radius: 5px;
-    text-decoration: none;
-    margin-top: 50px;
-  }
-  
-  .cta-btn:hover {
-    background-color: #F2F2F2;
-  }
-  
   .footer {
     background-color: #333;
-    color: #fff;
+    color: #b31717;
     padding: 50px 0;
  }
  .container-fluid {
     padding: 0;
     }
-    
-    .footer-widget {
-    margin-bottom: 50px;
-    }
-    
-    .footer-widget h3 {
-    font-size: 24px;
-    margin-bottom: 15px;
-    }
-    
-    .footer-widget ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    }
-    
-    .footer-widget li {
-    margin-bottom: 10px;
-    }
-    
-    .footer-widget a {
-    color: #fff;
-    text-decoration: none;
-    }
-    
-    .footer-logo {
-    font-size: 40px;
-    font-weight: bold;
-    color: #fff;
-    margin-bottom: 50px;
-    }
-    
-    .footer-social {
-    margin-top: 50px;
-    }
-    
-    .footer-social a {
-    color: #fff;
-    display: inline-block;
-    margin-right: 15px;
-    font-size: 24px;
-    }
-    
-    .footer-social a:hover {
-    color: #FF756C;
-    }
-    
-    @media screen and (max-width: 767px) {
-    .navbar-brand {
-    font-size: 24px;
-    }
-    
-    .nav-link {
-    font-size: 16px;
-    margin-left: 15px;
-    }
-    
-    .banner-heading h1 {
-    font-size: 40px;
-    }
-    
-    .banner-heading h2 {
-    font-size: 20px;
-    }
-    
-    .banner-btn {
-    width: 150px;
-    font-size: 16px;
-    margin-top: 30px;
-    }
-    
-    .featured-section-heading h2 {
-    font-size: 30px;
-    }
-    
-    .featured-item h3 {
-    font-size: 20px;
-    }
-    
-    .featured-item p {
-    font-size: 16px;
-    }
-    
-    .cta-section-heading {
+     .cta-section-heading {
     font-size: 30px;
     }
     
@@ -200,18 +89,6 @@ body {
     margin-top: 30px;
     }
     
-    .footer-widget h3 {
-    font-size: 20px;
-    }
-    
-    .footer-logo {
-    font-size: 30px;
-    margin-bottom: 30px;
-    }
-    
-    .footer-social a {
-    font-size: 20px;
-    }
     /* Contact Section */
 .contact-section {
     padding: 100px 0;
@@ -234,7 +111,7 @@ body {
     height: 50px;
     border-radius: 0;
     border: none;
-    border-bottom: 2px solid #ccc;
+    border-bottom: 2px solid #a30f0f;
     }
     
     .form-control:focus {
@@ -249,7 +126,7 @@ body {
     
     .btn-contact {
     background-color: #FF756C;
-    color: #fff;
+    color: #4b0202;
     border-radius: 0;
     border: none;
     padding: 15px 30px;
@@ -285,57 +162,4 @@ body {
     }
     
     /* Footer Section */
-    .footer-section {
-    background-color: #333;
-    color: #fff;
-    padding: 100px 0;
-    }
     
-    .footer-heading h2 {
-    font-size: 40px;
-    margin-bottom: 50px;
-    }
-    
-    .footer-paragraph p {
-    margin-bottom: 50px;
-    }
-    
-    .footer-widget ul {
-    margin-bottom: 30px;
-    }
-    
-    .footer-widget ul li a {
-    color: #fff;
-    }
-    
-    .footer-widget ul li a:hover {
-    color: #FF756C;
-    }
-    
-    .footer-social a {
-    color: #fff;
-    display: inline-block;
-    margin-right: 15px;
-    font-size: 24px;
-    }
-    
-    .footer-social a:hover {
-    color: #FF756C;
-    }
-    
-    @media screen and (max-width: 767px) {
-    .footer-heading h2 {
-    font-size: 30px;
-    }
-    
-    .footer-paragraph p {
-    margin-bottom: 30px;
-    }
-    
-    .footer-widget ul {
-    margin-bottom: 20px;
-    }
-    
-    .footer-social a {
-    font-size: 20px;
-    }  
