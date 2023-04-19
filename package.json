@@ -4,7 +4,7 @@
   "description": "proyecto para digital nao",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "dev": "browser-sync start --server --files '*.html, css/*.css' --index 'index.html'"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/cova100/prueba.git)/issues"
   },
-  "homepage": "https://github.com/cova100/prueba.git)#readme"
+  "homepage": "https://github.com/cova100/prueba.git)#readme",
+  "devDependencies": {
+    "browser-sync": "^2.29.1"
+  }
 }
+
