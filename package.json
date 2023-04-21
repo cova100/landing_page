@@ -4,7 +4,7 @@
   "description": "proyecto para digital nao",
   "main": "index.html",
   "scripts": {
-  "dev": "browser-sync start --server --files '*.html, css/*.css' --index 'index.html'"
+    "dev": "browser-sync start --server --directory --serveStatic './' --files './**/*.*'"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,10 @@
   "homepage": "https://github.com/cova100/prueba.git)#readme",
   "devDependencies": {
     "browser-sync": "^2.29.1"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.7",
+    "bootstrap": "^5.2.3",
+    "jquery": "^3.6.4"
   }
 }
-
