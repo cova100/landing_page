@@ -1,14 +1,18 @@
 Estilos para la página de inicio 
-body {
-    font-family: 'Montserrat', sans-serif;
-    background-color: #e01919 !important;
-    color: #333;
-  }
+
   
-  .jumbotron {
-    background-color: goldenrod !important;
+  .display-2 {
     text-decoration: dashed;
     text-orientation: sideways-right;
+    margin-bottom: 0%;
+    background-color: #701313;
+   
+  }
+  header {
+    background-color: #333;
+    margin-top: 0%;
+    margin-bottom: 0%;
+
   }
   header.masthead .container .img-fluid {
     padding-top: 10.5rem;
